@@ -1,0 +1,88 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel='stylesheet' href='style.css'>
+	<style>
+		#newh1{
+			border-width:1px;
+			border-style: solid;
+			border-color:red;
+			box-shadow: 5px 5px 5px green;
+		}
+		#newp{
+			opacity:0;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 id='newh1'>This is the new page</h1>
+	<p id='newp'>This is a paragraph</p>
+	<video width="500px" height="300px" controls>
+		<source src="video.mp4" type="video/mp4">
+	</video>
+
+	<audio controls>
+		<source src="audio.mp3" type="audio/mp3">
+	</audio>
+
+	<form action='https://www.google.com/search'>
+		<input name='q' type="search" placeholder="search anything">
+		<input type="submit">
+		<textarea rows="4" cols="50">
+	</form>
+
+	<center><form action='123.php' style="border: 1px solid black; width: 30%;" >
+		<label for="name">Name:</label>
+		<input type="text" name="name" placeholder="enter your name"><br>
+
+		<label for='gender'>Gender:</label>
+		<input type="radio" name='gender'>
+		<label for='male'>Male</label>
+		<input type="radio" name='gender'>
+		<label for='female'>Female</label>
+		<input type="radio" name='gender'>
+		<label for='unknown'>Unknown</label><br>
+
+		<label for='trans'>Transportation:</label>
+		<input type="checkbox" name='car'>
+		<label for='car'>Car</label>
+		<input type="checkbox" name='bike'>
+		<label for='bike'>Bike</label>
+		<input type="checkbox" name='bus'>
+		<label for='bus'>Bus</label><br>
+
+		<label for='dob'>Date of Birth:</label>
+		<input type="date" name='dob'><br>
+
+		<label for='post'>Post Code:</label>
+		<input type='text' name='post' maxlength="6"><br>
+
+		<label for='province'>Province:</label>
+		<select name='province'>
+			<option value='Ontario'>Ontario</option>
+			<option value='BC'>BC</option>
+			<option value='Quebec'>Quebec</option>
+		</select><br>
+
+		<label for='transcript'>Transcript:</label>
+		<input type='file' name='file'><br>
+
+		<label for='color'>Color:</label>
+		<input type="color" name='color'><br>
+
+		<label for='purchase'>Amount of purchase</label>
+		<input type="number" min='1' max='5'><br>
+
+		<label for='time'>Time:</label>
+		<input type="time" name='time'></br>
+
+		<input type="submit">
+	</form></center>
+</body>
+</html>
+
+
+file:///Users/chai8323/Desktop/123.php?name=Tony&gender=on&bike=on&dob=2000-01-01&post=123456&province=Ontario&file=index.html&color=%23f51919&time=06%3A32
